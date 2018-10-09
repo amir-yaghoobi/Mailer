@@ -1,0 +1,35 @@
+{
+  "name": "mailer",
+  "version": "0.0.1",
+  "description": "simple API to send emails",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir-yaghoobi/mailer.git"
+  },
+  "keywords": [
+    "email",
+    "restApi"
+  ],
+  "author": "a.yaghoobi.dev@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/amir-yaghoobi/mailer/issues"
+  },
+  "homepage": "https://github.com/amir-yaghoobi/mailer#readme",
+  "dependencies": {
+    "config": "^2.0.1",
+    "fastify": "^1.12.1",
+    "fastify-helmet": "^2.1.0",
+    "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  }
+}

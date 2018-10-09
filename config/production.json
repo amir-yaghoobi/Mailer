@@ -1,0 +1,11 @@
+{
+	"access_token": "<PRIVATE_ACCESS_TOKEN>",
+	"port": 8080,
+	"mailAccount": {
+		"service": "<TYPE>",
+		"auth": {
+			"user": "<USERNAME>",
+			"pass": "<PASSWORD>"
+		}
+	}
+}
